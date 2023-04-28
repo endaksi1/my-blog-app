@@ -1,24 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AppButton from "./Components/button";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-         
-         New branch test.
-         test test test test test 
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppButton>Button</AppButton>
     </div>
   );
 }
