@@ -1,5 +1,8 @@
 import React from "react";
+import { Box } from "@mui/material";
 
 const BlogContainer = () => {
-  return;
+  return <Box></Box>;
 };
+
+export default BlogContainer;
