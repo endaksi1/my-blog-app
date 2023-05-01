@@ -1,12 +1,13 @@
 import "./App.css";
 import AppButton from "./Components/button";
-import BlogContainer from "./Components/blogContainer";
+import BlogCard from "./Components/blogCard";
 
 function App() {
   return (
     <div className="App">
-      <AppButton>Button</AppButton>
-      <BlogContainer>blog container</BlogContainer>
+      <div className="panel">
+        <BlogCard>blog card</BlogCard>
+      </div>
     </div>
   );
 }
