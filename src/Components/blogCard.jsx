@@ -1,12 +1,20 @@
 import React from "react";
-import image from "../Assets/Images/pexels-sam-kolder-2387873.jpg";
+import imageMain from "../Assets/Images/pexels-sam-kolder-2387873.jpg";
+import imagePoster from "../Assets/Images/Capture.PNG";
+import AppButton from "./button";
 
-const cardImage = image;
+const cardImage = imageMain;
+const posterImage = imagePoster;
 
 const BlogCard = () => {
   return (
     <div className="blog-card-container">
-      <div className="card-header"></div>
+      <div className="card-header">
+        <img className="poster-image" src={imagePoster} />
+        <div className="header-spacer"></div>
+        <AppButton>Read Post</AppButton>
+        <div className="ellipsis">&#8942;</div>
+      </div>
       <div className="card-title-container">
         <h1 className="card-title">This is the title of the blog post.</h1>
       </div>
