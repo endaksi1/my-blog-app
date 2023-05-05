@@ -8,6 +8,8 @@ import { TbArrowBigUp } from "react-icons/tb";
 import { BiCommentDetail } from "react-icons/bi";
 import { IoArrowRedoOutline } from "react-icons/io5";
 
+
+
 import { HiEllipsisVertical } from "react-icons/hi2";
 
 
@@ -27,7 +29,7 @@ const BlogCard = () => {
           <HiEllipsisVertical className="ellipsis"/>
         </div>
         <div className="card-title-container">
-          <h1 className="card-title">Is rock skiing the greastest pastime known to man?</h1>
+          <h1 className="card-title">Is rock skiing the greastest pastime known to man? Yes! And here's why.</h1>
         </div>
         <div className="read-time-contianer">
           <p className="read-time">10m read time</p>
