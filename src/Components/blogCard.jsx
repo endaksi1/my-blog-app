@@ -13,6 +13,7 @@ import { HiEllipsisVertical } from "react-icons/hi2";
 
 const cardImage = imageMain;
 const posterImage = imagePoster;
+const boxArrow = <BsBoxArrowUpRight className="box-arrow"/>
 
 const BlogCard = () => {
   return (
@@ -21,7 +22,7 @@ const BlogCard = () => {
         <div className="card-header">
           <img className="poster-image" src={imagePoster} />
           <div className="header-spacer"></div>
-          <AppButton>Read Post {BsBoxArrowUpRight}</AppButton>
+          <AppButton>Read Post   {boxArrow}</AppButton>
           {/* <EllipsisButton></EllipsisButton> */}
           <HiEllipsisVertical className="ellipsis"/>
         </div>
