@@ -2,6 +2,7 @@ import React from "react";
 import imageMain from "../Assets/Images/pexels-sam-kolder-2387873.jpg";
 import imagePoster from "../Assets/Images/Capture.PNG";
 import AppButton from "./button";
+import EllipsisButton from "./ellipsisButton";
 
 const cardImage = imageMain;
 const posterImage = imagePoster;
@@ -14,7 +15,7 @@ const BlogCard = () => {
           <img className="poster-image" src={imagePoster} />
           <div className="header-spacer"></div>
           <AppButton>Read Post</AppButton>
-          <div className="ellipsis">&#8942;</div>
+          <EllipsisButton></EllipsisButton>
         </div>
         <div className="card-title-container">
           <h1 className="card-title">Is rock skiing the greastest pastime known to man?</h1>
