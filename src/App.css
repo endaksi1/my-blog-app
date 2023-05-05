@@ -129,11 +129,12 @@
 
 .read-time {
   height: 100%;
-  font-family: "roboto", "Helvetica Neue", Helvetica, Arial;
+  font-family: "roboto", "Helvetica Neue", Helvetica, Arial,;
+  font-style: solid;
   text-align: left;
   overflow: hidden;
   margin: 0px;
-  color: #9b9b9b;
+  color: #c3c3c3;
 }
 
 .card-image-container {
