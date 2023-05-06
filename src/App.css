@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
-
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
 
 .App {
   text-align: center;
@@ -48,6 +47,11 @@
   background-color: rgb(255, 255, 255);
 }
 
+.App-button:hover {
+  box-shadow: 3px 3px 3px #1b1b1b;
+  background-color: #cfd2df;
+}
+
 .panel {
   width: 100%;
   height: 900px;
@@ -61,11 +65,15 @@
   border-style: solid;
   border-width: thin;
   border-radius: 20px;
-  border-color: rgb(169, 174, 179);
+  border-color: #5a5e6e;
   box-shadow: 5px 10px 18px #252525;
   overflow: hidden;
   padding: 10px;
   background-color: #2a2d3a;
+}
+
+.blog-card-container:hover {
+  border-color: #8f94a8;
 }
 
 .card-header {
@@ -91,16 +99,16 @@
   height: 40px;
 }
 
-.ellipsis-button {
-  width: 35px;
-  height: 40px;
-  background-color: '#00000000';
-}
-
 .ellipsis {
   width: 35px;
   height: 40px;
+  border-radius: 10px;
   color: #999999;
+}
+
+.ellipsis:hover {
+  color: #d3d3d3;
+  background-color: #3d4152;
 }
 
 .card-title-container {
@@ -129,7 +137,7 @@
 
 .read-time {
   height: 100%;
-  font-family: "roboto", "Helvetica Neue", Helvetica, Arial,;
+  font-family: "roboto", "Helvetica Neue", Helvetica, Arial;
   font-style: solid;
   text-align: left;
   overflow: hidden;
@@ -156,33 +164,54 @@
   flex-direction: row;
   margin: 0px;
   padding: 5px;
-  padding-top: 10px;
+  padding-top: 5px;
   overflow: hidden;
 }
 
 .up-arrow-icon {
   width: 30px;
   height: 30px;
+  padding: 5px;
+  border-radius: 10px;
   box-shadow: 1px 1px 1px #303031;
   color: #999999;
+}
+
+.up-arrow-icon:hover {
+  color: #0ad882;
+  background-color: #0ad8822d;
 }
 
 .comment-icon {
   width: 30px;
   height: 30px;
+  padding: 5px;
+  border-radius: 10px;
   box-shadow: 1px 1px 1px #303031;
   color: #999999;
+}
+
+.comment-icon:hover {
+  color: #00cec4;
+  background-color: #00cec42d;
 }
 
 .curve-right-arrow-icon {
   width: 30px;
   height: 30px;
+  padding: 5px;
+  border-radius: 10px;
   box-shadow: 1px 1px 1px #303031;
   color: #999999;
 }
 
+.curve-right-arrow-icon:hover {
+  color: #cf41c3;
+  background-color: #cf41c32d;
+}
+
 .footer-spacer {
-  width: 105px;
+  width: 95px;
   height: 40px;
 }
 
