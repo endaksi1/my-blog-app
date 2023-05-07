@@ -1,14 +1,12 @@
 import React from "react";
 import "./App.css";
-import AppButton from "./Components/button";
-import BlogCard from "./Components/blogCard";
-import AllBlogs from "./Components/allBlogs";
+import AllContent from "./Components/allcontent";
 
 function App() {
   return (
     <div className="App">
       <div className="panel">
-        <AllBlogs></AllBlogs>
+        <AllContent></AllContent>
       </div>
     </div>
   );
