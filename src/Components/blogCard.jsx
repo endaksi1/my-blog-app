@@ -13,7 +13,7 @@ const cardImage = imageMain;
 const posterImage = imagePoster;
 const boxArrow = <BsBoxArrowUpRight className="box-arrow" />;
 
-const BlogCard = () => {
+const BlogCard = ({title, readTime, image}) => {
   return (
     <div className="blog-card-container">
       <div className="inner-container">
@@ -25,15 +25,16 @@ const BlogCard = () => {
         </div>
         <div className="card-title-container">
           <h1 className="card-title">
-            Is rock skiing the greastest pastime known to man? Yes! And here's
-            why.
+          {title}
           </h1>
         </div>
         <div className="read-time-contianer">
-          <p className="read-time">10m read time</p>
+          <p className="read-time">
+            {readTime}
+          </p>
         </div>
         <div className="card-image-container">
-          <img className="card-image" src={cardImage} />
+        <img className="card-image" src={image} />
         </div>
         <div className="card-footer">
           <TbArrowBigUp className="up-arrow-icon" />
@@ -48,3 +49,5 @@ const BlogCard = () => {
 };
 
 export default BlogCard;
+
+
