@@ -312,8 +312,8 @@
 }
 
 .popular-container {
-  height: 25px;
-  /* vertical-align: baseline; */
+  height: 2px;
+  vertical-align: text-top;
   display: flex;
   overflow: hidden;
 }
@@ -326,7 +326,7 @@
 }
 
 .popular {
-  vertical-align: baseline;
+  vertical-align: text-top;
 }
 
 .popular-container:hover {
@@ -363,4 +363,20 @@
 
 .customize:hover {
   background-color: #5a5e6e;
+}
+
+.sidebar-menu-item-spacer {
+  background-color: #00cec4;
+  .h2 {
+    line-height: 0;
+  }
+}
+
+.small {
+  width: 30%;
+}
+
+.large {
+  background-color: #d80a6a;
+  width: 70%;
 }

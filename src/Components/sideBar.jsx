@@ -1,5 +1,6 @@
 import React from "react";
-import { BsFire } from "react-icons/bs";
+
+import SideBarMenuItem from "./sidebarMenuItem";
 
 const SideBar = () => {
   return (
@@ -12,10 +13,7 @@ const SideBar = () => {
           <h2>Discover</h2>
         </div>
         <div className="disc-menu">
-          <div className="popular-container">
-            <BsFire className="popular-fire-icon" />
-            <h2 className="popular">Popular</h2>
-          </div>
+          <SideBarMenuItem/>
           <div className="most-upvoted">
             <h2>Most Upvoted</h2>
           </div>
