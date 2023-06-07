@@ -1,8 +1,20 @@
 import React from "react";
 import { BsFire } from "react-icons/bs";
 import SideBarMenuItem from "./sidebarMenuItem";
+import { BsSearch } from "react-icons/bs";
+import { TbArrowBigUp } from "react-icons/tb";
+import { BiCommentDetail } from "react-icons/bi";
+import { BsBookmark } from "react-icons/bs";
+import { AiOutlineEye } from "react-icons/ai";
+import { FiSettings } from "react-icons/fi";
 
-const icon = <BsFire className="popular-fire-icon" />;
+const fireIcon = <BsFire className="sb-icons" />;
+const searchIcon = <BsSearch className="sb-icons" />;
+const upvoteIcon = <TbArrowBigUp className="sb-icons" />;
+const discussionIcon = <BiCommentDetail className="sb-icons" />;
+const bookmarkIcon = <BsBookmark className="sb-icons" />;
+const eyeIcon = <AiOutlineEye className="sb-icons" />;
+const settingsIcon = <FiSettings className="sb-icons" />;
 
 const SideBar = () => {
   return (
@@ -15,30 +27,21 @@ const SideBar = () => {
           <h2>Discover</h2>
         </div>
         <div className="disc-menu">
-          <SideBarMenuItem menuItem="popular" sideBarIcon={icon}/>
-          <div className="most-upvoted">
-            <h2>Most Upvoted</h2>
-          </div>
-          <div className="best-disc">
-            <h2>Best Discussions</h2>
-          </div>
-          <div>
-            <h2 className="search">Search</h2>
-          </div>
+          <SideBarMenuItem menuItem="Popular" sideBarIcon={fireIcon} />
+          <SideBarMenuItem menuItem="Most Upvoted" sideBarIcon={upvoteIcon} />
+          <SideBarMenuItem
+            menuItem="Best Discussions"
+            sideBarIcon={discussionIcon}
+          />
+          <SideBarMenuItem menuItem="search" sideBarIcon={searchIcon} />
         </div>
         <div className="manage-container">
           <h2>Manage</h2>
         </div>
         <div className="manage-menu">
-          <div className="bookmarks">
-            <h2>Bookmarks</h2>
-          </div>
-          <div className="read-history">
-            <h2>Reading History</h2>
-          </div>
-          <div className="customize">
-            <h2>Customize</h2>
-          </div>
+          <SideBarMenuItem menuItem="Bookmarks" sideBarIcon={bookmarkIcon} />
+          <SideBarMenuItem menuItem="Reading History" sideBarIcon={eyeIcon} />
+          <SideBarMenuItem menuItem="Customize" sideBarIcon={settingsIcon} />
         </div>
       </div>
     </div>
