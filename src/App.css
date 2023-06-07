@@ -70,8 +70,8 @@
   gap: 1rem;
 
   grid-template-columns: repeat(4);
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .top-bar {
@@ -304,6 +304,7 @@
 
 .main-feed-container {
   height: 20px;
+  padding-left: 5px;
   vertical-align: baseline;
   color: #ffffff;
   background-color: #30323b;
@@ -316,8 +317,9 @@
 }
 
 .discover-container {
+  padding-left: 7px;
   overflow: hidden;
-  color: #55596b;
+  color: #595e74;
 }
 
 .disc-menu {
@@ -354,7 +356,8 @@
 }
 
 .manage-container {
-  color: #3d4152;
+  padding-left: 7px;
+  color: #595e74;
 }
 
 .manage-menu {
