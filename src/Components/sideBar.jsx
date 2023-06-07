@@ -1,6 +1,8 @@
 import React from "react";
-
+import { BsFire } from "react-icons/bs";
 import SideBarMenuItem from "./sidebarMenuItem";
+
+const icon = <BsFire className="popular-fire-icon" />;
 
 const SideBar = () => {
   return (
@@ -13,7 +15,7 @@ const SideBar = () => {
           <h2>Discover</h2>
         </div>
         <div className="disc-menu">
-          <SideBarMenuItem/>
+          <SideBarMenuItem menuItem="popular" sideBarIcon={icon}/>
           <div className="most-upvoted">
             <h2>Most Upvoted</h2>
           </div>

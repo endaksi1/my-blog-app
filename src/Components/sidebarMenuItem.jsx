@@ -1,14 +1,14 @@
 import React from 'react';
 import { BsFire } from "react-icons/bs";
 
-const SideBarMenuItem = () => {
+const SideBarMenuItem = (props) => {
     return (
-    <div className="popular-container">
+    <div className="sidebar-menu-item-container">
         <div className="sidebar-menu-item-spacer small">
-            <BsFire className="popular-fire-icon" />
+            {props.sideBarIcon}
         </div>
         <div className="sidebar-menu-item-spacer large">    
-            <h2 className="popular">Popular</h2>
+            <h2 className="sidebar-menu-item">{props.menuItem}</h2>
         </div>
     </div>
     )

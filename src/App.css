@@ -304,17 +304,18 @@
 
 .discover-container {
   overflow: hidden;
-  color: #3d4152;
+  color: #55596b;
 }
 
 .disc-menu {
   color: #ffffff;
 }
 
-.popular-container {
-  height: 2px;
-  vertical-align: text-top;
+.sidebar-menu-item-container {
+  height: 25px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 
@@ -325,7 +326,8 @@
   color: #999999;
 }
 
-.popular {
+.sidebar-menu-item {
+  justify-content:first baseline;
   vertical-align: text-top;
 }
 
@@ -366,17 +368,17 @@
 }
 
 .sidebar-menu-item-spacer {
-  background-color: #00cec4;
+  /* background-color: #00cec4; */
   .h2 {
     line-height: 0;
   }
 }
 
 .small {
-  width: 30%;
+  width: 15%;
 }
 
 .large {
-  background-color: #d80a6a;
-  width: 70%;
+  /* background-color: #d80a6a; */
+  width: 85%;
 }
