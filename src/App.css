@@ -108,6 +108,7 @@
   box-shadow: 1px 1px 1px #303031;
   border-radius: 12px;
   background-color: rgb(255, 255, 255);
+  visibility: hidden;
 }
 
 .App-button:hover {
@@ -141,6 +142,12 @@
   cursor: pointer;
   box-shadow: 7px 12px 20px #000000;
   border-color: #8f94a8;
+  .ellipsis {
+    visibility: visible;
+  }
+  .App-button {
+    visibility: visible;
+  }
 }
 
 .card-header {
@@ -171,6 +178,7 @@
   height: 40px;
   border-radius: 10px;
   color: #999999;
+  visibility: hidden;
 }
 
 .ellipsis:hover {
