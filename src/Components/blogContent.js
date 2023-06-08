@@ -34,7 +34,7 @@ const blogContent = [
   },
   {
     header:
-      "Castles where definitely built by aliens, says worlds leading heart surgeon",
+      "Castles were definitely built by aliens, says worlds leading heart surgeon",
     readTime: "12m read time",
     image: imageCastle,
     content: "",

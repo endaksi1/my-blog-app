@@ -69,9 +69,10 @@
   display: grid;
   gap: 1rem;
 
+
   grid-template-columns: repeat(4);
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 .top-bar {
