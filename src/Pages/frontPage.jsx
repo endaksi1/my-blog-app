@@ -1,7 +1,7 @@
 import React from "react";
 import AllBlogs from "../Components/allBlogs";
 import TopBar from "../Components/topBar";
-import SideBar from "../Components/sideBar";
+import SideBar from "../Components/sideBar/sideBar";
 
 const FrontPage = () => {
   return (

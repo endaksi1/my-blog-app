@@ -295,7 +295,7 @@
 /* SideBar */
 
 .side-bar-container {
-  font-family: "roboto", "Helvetica Neue", Helvetica, Arial;
+  font-family: "Segoe UI", Tahoma, sans-serif;
   text-align: left;
   vertical-align: text-top;
   font-size: 11px;
@@ -303,10 +303,10 @@
 }
 
 .main-feed-container {
-  height: 20px;
-  padding-left: 5px;
-  vertical-align: baseline;
-  color: #ffffff;
+  height: 25px;
+  padding-left: 50px;
+  vertical-align: auto;
+  color: #646a85;
   background-color: #30323b;
 }
 
@@ -323,7 +323,7 @@
 }
 
 .disc-menu {
-  color: #ffffff;
+  color: #646a85;
 }
 
 .sidebar-menu-item-container {
@@ -341,18 +341,24 @@
   box-shadow: 7px 12px 20px #000000;
   border-color: #8f94a8;
   background-color: #5a5e6e;
+  color: #ffffff;
+  .sb-icons {
+    color: #ffffff;
+  }
 }
 
 .sb-icons {
   width: 20px;
   height: 20px;
-  padding: 5px;
-  color: #999999;
+  padding: 10px;
+  align-items: center;
+  color: #646a85;
 }
 
 .sidebar-menu-item {
   justify-content: first baseline;
   vertical-align: text-top;
+  font-weight: 400;
 }
 
 .manage-container {
@@ -361,21 +367,19 @@
 }
 
 .manage-menu {
-  color: #ffffff;
+  color: #646a85;
 }
 
 .sidebar-menu-item-spacer {
-  /* background-color: #00cec4; */
   .h2 {
     line-height: 0;
   }
 }
 
 .small {
-  width: 15%;
+  width: 20%;
 }
 
 .large {
-  /* background-color: #d80a6a; */
-  width: 85%;
+  width: 80%;
 }
