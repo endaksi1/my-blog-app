@@ -1,4 +1,6 @@
 import React from "react";
+import Modal from "../Pages/Modal";
+
 import imageMain from "../Assets/Images/pexels-sam-kolder-2387873.jpg";
 import imagePoster from "../Assets/Images/Capture.PNG";
 import AppButton from "./button";
@@ -14,8 +16,10 @@ const posterImage = imagePoster;
 const boxArrow = <BsBoxArrowUpRight className="box-arrow" />;
 
 const BlogCard = ({ title, readTime, image }) => {
+  const [openModal, setOpenModal] = useState(false);
+
   return (
-    <div className="blog-card-container">
+    <div className="blog-card-container" onClick={() => setOpenModal(true)}>
       <div className="inner-container">
         <div className="card-header">
           <img className="poster-image" src={imagePoster} />
