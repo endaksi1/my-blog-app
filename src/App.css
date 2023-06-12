@@ -322,8 +322,8 @@
   color: #595e74;
 }
 
-.disc-menu {
-  color: #646a85;
+.items-menu {
+  color: #858aa2;
 }
 
 .sidebar-menu-item-container {
@@ -348,11 +348,12 @@
 }
 
 .sb-icons {
-  width: 20px;
-  height: 20px;
-  padding: 10px;
+  width: 17px;
+  height: 17px;
+  padding: 8px;
+  vertical-align: bottom;
   align-items: center;
-  color: #646a85;
+  color: #858aa2;
 }
 
 .sidebar-menu-item {
@@ -362,12 +363,8 @@
 }
 
 .manage-container {
-  padding-left: 7px;
+  padding-left: 5px;
   color: #595e74;
-}
-
-.manage-menu {
-  color: #646a85;
 }
 
 .sidebar-menu-item-spacer {
@@ -377,9 +374,9 @@
 }
 
 .small {
-  width: 20%;
+  width: 17%;
 }
 
 .large {
-  width: 80%;
+  width: 83%;
 }
