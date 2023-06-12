@@ -62,13 +62,13 @@ const SideBar = () => {
         <div className="discover-container">
           <h2>Discover</h2>
         </div>
-        <div className="disc-menu">
+        <div className="items-menu">
           <SidebarSectionList data={discoverListItems} />
         </div>
         <div className="manage-container">
           <h2>Manage</h2>
         </div>
-        <div className="manage-menu">
+        <div className="items-menu">
           <SidebarSectionList data={manageListItems} />
         </div>
       </div>
