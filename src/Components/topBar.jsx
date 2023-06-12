@@ -5,7 +5,7 @@ const TopBar = () => {
   return (
     <div className="top-bar">
       <div>
-        <img className="top-bar-logo" src={imgLogo}></img>
+        <img className="top-bar-logo" src={imgLogo} alt=""></img>
       </div>
     </div>
   );
