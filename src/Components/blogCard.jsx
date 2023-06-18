@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import imagePoster from "../Assets/Images/Capture.PNG";
 import AppButton from "./button";
+
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { TbArrowBigUp } from "react-icons/tb";
 import { BiCommentDetail } from "react-icons/bi";
 import { IoArrowRedoOutline } from "react-icons/io5";
 
 import { HiEllipsisVertical } from "react-icons/hi2";
-
 
 const boxArrow = <BsBoxArrowUpRight className="box-arrow" />;
 

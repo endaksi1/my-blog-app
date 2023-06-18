@@ -23,7 +23,7 @@ export default function Modal() {
         <div className="modal">
           <div onClick={toggleModal} className="overlay"></div>
           <div className="modal-content">
-            <h2>Hello Modal</h2>
+            <h2>Test Modal</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
               perferendis suscipit officia recusandae, eveniet quaerat assumenda
@@ -33,18 +33,11 @@ export default function Modal() {
               placeat tempora vitae enim incidunt porro fuga ea.
             </p>
             <button className="close-modal" onClick={toggleModal}>
-              CLOSE
+              X
             </button>
           </div>
         </div>
       )}
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. A ullam
-        excepturi corrupti doloremque accusantium id ratione ipsa veniam eum
-        magnam soluta molestias accusamus, maiores tenetur quae temporibus
-        aperiam, sint expedita illum, libero error deserunt maxime omnis vero.
-        Quis, iste.
-      </p>
     </div>
   );
 }
