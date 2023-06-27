@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import imagePoster from "../Assets/Images/Capture.PNG";
 import AppButton from "./button";
+import Modal from "./modal";
 
 import { BsBoxArrowUpRight } from "react-icons/bs";
 import { TbArrowBigUp } from "react-icons/tb";
@@ -18,7 +19,7 @@ const BlogCard = ({ title, readTime, image }) => {
         <div className="card-header">
           <img className="poster-image" src={imagePoster} alt="" />
           <div className="header-spacer"></div>
-          <AppButton>Read Post {boxArrow}</AppButton>
+          <Modal>Read Post {boxArrow}</Modal>
           <HiEllipsisVertical className="ellipsis" />
         </div>
         <div className="card-title-container">

@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { BsBoxArrowUpRight } from "react-icons/bs";
+
+const boxArrow = <BsBoxArrowUpRight className="box-arrow" />;
 
 export default function Modal() {
   const [modal, setModal] = useState(false);
@@ -15,8 +18,8 @@ export default function Modal() {
 
   return (
     <div>
-      <button onClick={toggleModal} className="btn-modal">
-        Open
+      <button onClick={toggleModal} className="App-button">
+        Read Post {boxArrow}
       </button>
 
       {modal && (
